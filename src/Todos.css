@@ -1,0 +1,27 @@
+*,*::before,*::after{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.inputDiv{
+    margin-top:2%;
+}
+input{
+    width:250px;
+    height:40px;
+    outline:none;
+
+}
+button{
+    width:50px;
+    height:40px;
+    background:red;
+    border: none;
+    cursor:pointer;
+}
+button i {
+    color:white;
+}
+.butnedit{
+  margin-right:5px;
+}

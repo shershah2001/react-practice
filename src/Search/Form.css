@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background:#313131;
+}
+html{
+    font-size:16px;
+}
+form label{
+    color:#fff;
+}
+.password, .con_password{
+    display: flex;
+    justify-content: space-between;
+    background:#fff;
+    width:25rem;
+    height:3rem;
+    border-radius:0.4rem;
+    padding:0 0.5rem 0 0.5rem;
+}
+.password input,
+.con_password input{
+    width:100%;
+    height:100%;
+    border: none;
+}
+.password i,
+.con_password i{
+   display: flex;
+   align-items: center;
+   cursor:pointer;
+}
+.password input:focus,
+.con_password input:focus{
+    box-shadow: none;
+}
+form input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:1rem;
+    width:250px;
+}

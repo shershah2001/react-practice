@@ -1,0 +1,12 @@
+
+
+th{
+    color:white;
+}
+td{
+    color:white;
+}
+table tr th,  table  tr  td{
+    border:1px  solid  white;
+    padding:1rem 4rem;
+}
