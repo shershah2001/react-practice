@@ -20,7 +20,7 @@ const userSlice = createSlice({
         builder.addCase(deleteUsers, () => {
             return [];
         })
-    }
+    } 
 })
 console.log(userSlice.actions)
 export default userSlice.reducer;

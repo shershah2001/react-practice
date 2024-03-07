@@ -79,14 +79,14 @@
 
 import React from 'react';
 // import NavbarLink from './components/NavbarLink';
-import Form from './Search/Form';
-// import PdfGenerator from './Search/PdfGenerator';
+// import Form from './Search/Form';
+import PdfGenerator from './Search/PdfGenerator';
 const App = () => {
   return (
     <div>
       {/* <NavbarLink/> */}
-      <Form />
-      {/* <PdfGenerator/> */}
+      {/* <Form /> */}
+      <PdfGenerator/>
     </div>
   )
 }
